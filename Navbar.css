@@ -1,0 +1,32 @@
+/* src/components/Navbar.css */
+.navbar {
+  background-color: #09396b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight:900;
+  color: white; /* make sure logo text is white */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links a {
+  color: white !important; /* force white text */
+  text-decoration: none;
+  font-weight: 900;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #ffeb3b; /* yellow highlight on hover */
+}
